@@ -1,0 +1,13 @@
+app-card {
+  margin: 24px auto;
+}
+
+.theme-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  margin: 24px 0;
+}

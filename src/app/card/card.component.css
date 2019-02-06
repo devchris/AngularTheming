@@ -1,0 +1,43 @@
+:host { 
+  display: block;
+  box-shadow: 1px 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 300px;
+}
+
+header {
+  background-color: var(--primary);
+  height: 75px;
+  font-size: 3rem;
+}
+
+.top,
+.bottom {
+  height: 200px;
+}
+
+.top {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+main {
+  position: relative;
+}
+
+.help {
+  border: 0;
+  background-color: var(--secondary);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  bottom: 10px;
+  transform: translateY(-50%);
+  right: 10%;
+}

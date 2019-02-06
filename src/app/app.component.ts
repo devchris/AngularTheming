@@ -8,9 +8,9 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  readonly indigoPinkTheme: Theme = {
-    primary: '#5c6bc0',
-    secondary: '#ec407a'
+  readonly tangoeTheme: Theme = {
+    primary: '#2cd345',
+    secondary: '#acff89'
   };
 
   readonly pinkBlueGrayTheme: Theme = {
@@ -23,7 +23,7 @@ export class AppComponent {
     secondary: '#ffca28'
   };
 
-  theme: Theme = this.indigoPinkTheme;
+  theme: Theme = this.tangoeTheme;
 
   @HostBinding('style')
   get style() {

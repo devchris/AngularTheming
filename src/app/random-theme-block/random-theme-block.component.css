@@ -5,7 +5,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-.block-lg {
+.block {
   display: flex;
   justify-content: center;
   align-items: center;
